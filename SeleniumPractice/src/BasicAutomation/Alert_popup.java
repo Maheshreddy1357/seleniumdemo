@@ -13,6 +13,7 @@ public class Alert_popup {
 		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\adithya\\\\eclipse-workspace\\\\SeleniumPractice\\\\Drivers\\\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		
